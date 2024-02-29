@@ -1,0 +1,34 @@
+# Define other parameters and hyperparameters
+epsilon = 0.9  # epsilon-greedy parameter
+BATCH_SIZE = 32
+lr = 0.00001
+max_episodes = 100
+det = 0.01
+lamdba = 0.5
+B = 40e6
+Pn = 0.5
+SNR = 10
+Lth = 1
+miu_1 = 0.5
+miu_2 = 0.25
+MEMORY_CAPACITY = 500
+GAMMA = 0.9
+target_update_frequency = 200
+N = 10
+M = 10
+T = 100000
+zeta_user = 1e-27
+zeta_cap = 1.5e-27
+plot_frequency = 2000
+
+env_change_frequency = 5
+cmax = 3e9
+cmin = 2e9
+dmax = 3e8
+dmin = 2e8
+fnmax = 7e9
+fnmin = 5e9
+f0min = 1.5e9
+f0max = 2e9
+Pmax = 0.3
+Pmin = 0.1
